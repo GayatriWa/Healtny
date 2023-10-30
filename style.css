@@ -82,7 +82,7 @@ html,body{
     text-align: center;
     line-height: 14vh;
 }
-.text span{
+.span-yellow{
     color: #FFC222;
 }
 #section-one p{
@@ -119,9 +119,10 @@ html,body{
 }
 .container{
     width: 80%;
-    height: 100%;
+    /* height: 100%; */
     padding-left: 15px;
     padding-right: 15px;
+    /* background-color: red; */
     position: relative;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -227,7 +228,7 @@ html,body{
     font-size: 3vw;
     font-weight: 500;
 }
-.right-content-block span{
+.span-green{
     color: #00a149;
 }
 .right-content-block p{
@@ -243,11 +244,12 @@ html,body{
     gap: 2vw;
 }
 .button-block .bbutton{
-    width:8vw;
-    height: 6vh;
+    width:9vw;
+    height: 6.5vh;
     border: 1px solid rgba(0, 0, 0, 0);
+    font-family: 'PTSans';
     border-radius: 50px;
-    padding: 10px 20px;
+    padding: 10px 23px;
     color: #434343;
     text-decoration: none;
     font-size: 1.3vw;
@@ -341,7 +343,7 @@ span{
     width: 55%;
     height: 100%;
     grid-column-gap: 30px;
-    /* grid-row-gap: 10px; */
+    grid-row-gap: 30px;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -379,11 +381,130 @@ span{
     font-size: 17px;
     color: rgb(116, 105, 105);
 }
+/* #section-five{
+    width: 100%;
+    height: 50vh;
+    background-image: url(images/section-four-back-img.jpg);
+    background-position: center;
+    background-size: cover;
+} */
 #section-four{
     width: 100%;
     height: 100vh;
-    margin-top: 120px;
+    /* display: flex;
+    gap: 20px; */
 }
+.content-left-block{
+    margin-top: -25%;
+    width: 35%;
+    height: 20vh;
+    /* background-color: yellow; */
+}
+.content-left-block img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.discription-right-block{
+    margin-top: -20%;
+    padding-left: 10vw ;
+    width: 65%;
+    height: 20vh;
+    /* background-color: blue; */
+}
+.discription-right-block h2{
+    font-size: 3.5vw;
+    margin-bottom: 5vh;
+    color: #434343;
+    font-family: 'AbrilFatFace';
+    font-weight: 500;
+}
+.discription-right-block p{
+    font-size: 1.3vw;
+    font-family: 'PTSans';
+    color: #434343;
+    margin-bottom: 5vh;
+    font-weight: 500;
+}
+.left-block{
+    z-index: 1;
+    position: relative;
+}
+.text-top{
+    width: 21vw;
+    height: 7vh;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    padding: 10px 23px;
+    background-color: #00a149;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: -50px;
+    top: 0;
+    /* right: 120px; */
+    left: -50px;
+    bottom: auto;
+}
+.text-top h5{
+    font-family: 'PTSans';
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.text-bottom{
+    width: 15vw;
+    height: 6.5vh;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    padding: 10px 40px;
+    background-color: #00a149;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: -50px;
+    /* right: 120px; */
+    right: 10px;
+    bottom: 20px;
+    font-family: 'PTSans';
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#section-five{
+    width: 100%;
+    height: 50vh;
+    margin-top: -5%;
+    background-image: url(images/section-five-back-img.jpg);
+    background-position: 50% 30%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#section-six{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+.get-quote-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 18vh;
+}
+.get-quote-wrapper h2{
+    font-family: 'AbrilFatFace' ;
+    font-size: 3.5vw; 
+    color: #fff;  
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+
 
 
 
